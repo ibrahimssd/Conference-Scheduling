@@ -1,5 +1,3 @@
 # Conference-Scheduling
-Comparison and analysis of multiple techniques to construct a schedule for any conference given its scheduling constraints.
 
-• Bachelors’ Graduation Project.
-• Python, Selection Hyper-Heuristics
+The conference scheduling problem is a NP-hard combinatorial optimization problem. Conference scheduling involves organizing presentations into sessions which are assigned to time periods and rooms. This includes assuring a feasible utilization of time periods and rooms, and avoiding individual schedule conflicts. The problem increases in complexity by considering the preferences of presenters. Compared to other similar scheduling problems, the conference scheduling problem is relatively unexplored. This paper describes a method to generate feasible initial schedules, and then employ selection hyper-heuristics to find optimal solutions for the problem. Experiments using the GR-AM, SR-IE, SR-SA, TS-IE, SR-AM, SR-OI hyper-heuristic algorithms were carried out on two problem instances: LargeConference, and SmallConference. Empirical results show that the GR-AM algorithm is the most suitable for small conferences, and still works well on larger scale conferences, but further experimentation indicates that the TS-IE algorithm produces better results on a larger conferences.
